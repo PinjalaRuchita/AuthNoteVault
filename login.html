@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js' defer></script>
+</head>
+<body class="b1">
+    <form id="login-form">
+        <h2 class="login-col">🔐Login</h2>
+        <input type="email" id="email" placeholder="Email" required>
+        <div class="password-container">
+            <input type="password" id="password" placeholder="Password" required>
+            <span class="toggle-password" onclick="togglePassword(this)">👁️‍🗨️</span>
+        </div>          
+        <p class="account">Don't have an Account?  <a href="Register.html">Register</a></p>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>

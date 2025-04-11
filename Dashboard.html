@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Dashboard</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js' defer></script>
+</head>
+<body class="b2">
+    <h1>Welcome!</h1>
+
+    <div class="main-dashboard">
+        <div class="Notes-container">
+            <p>Your Notes</p>
+            <textarea class="notes"></textarea>
+            <br>
+            <button class="save">Save</button>
+        </div>
+
+        <div class="side-widgets">
+            <div class="search-container">
+                <p>Search</p>
+                <input type="text" class="search-bar" placeholder="Search in Google...">
+                <br>
+                <button class="search">Enter</button>
+            </div>
+        
+            <div class="saved-note-container">
+                <h3>Saved Note</h3>
+                <p id="savedNoteText">No note saved yet.</p>
+                <button id="deleteNoteBtn">Delete Note</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
